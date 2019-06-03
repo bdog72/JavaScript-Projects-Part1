@@ -36,7 +36,8 @@ function buildBoard() {
   let rows = 4;
   let cols = 4;
   let cnt = 0;
-  playArea.game.style.width = cols * 100 + cols * 2;
+  // prettier-ignore
+  playArea.game.style.width = cols * 100 + (cols * 2);
   playArea.game.style.margin = 'auto';
   for (let y = 0; y < rows; y++) {
     let divMain = document.createElement('div');
