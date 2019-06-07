@@ -20,6 +20,7 @@
   text-align: center;
   background-color: aliceblue;
   font-size: 2em;
+  cursor: pointer;
 }
 
 .score {
