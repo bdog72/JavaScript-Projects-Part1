@@ -1,0 +1,16 @@
+.content {
+  display: none;
+  padding: 20px;
+  font-size: 0.8rem;
+  border: 1px solid black;
+}
+
+.main {
+  font-size: 1.5em;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.active {
+  display: block;
+}
